@@ -21,8 +21,8 @@ This script uses the following Node.js packages:
 1. Clone this repository and navigate into it.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone excel-to-android-xml-translations.git
+   cd excel-to-android-xml-translations
    ```
 
 2. Install the necessary dependencies:
