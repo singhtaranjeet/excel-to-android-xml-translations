@@ -36,4 +36,4 @@ const xmlFilePath = path.join(translationsFolderPath, xmlFileName);
 // Write the XML to a file
 fs.writeFileSync(xmlFilePath, xmlString, "utf8");
 
-console.log(`Translations are ready in ${xmlFileName}`);
+console.log(`Translations are ready in ${xmlFilePath}`);
