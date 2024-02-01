@@ -41,6 +41,15 @@ This script uses the following Node.js packages:
 
 The script reads from an Excel file (default: 'gt-app-muti-lang.xlsx') and expects a sheet with columns labeled 'Key', 'ta', and 'English'. The 'Key' column is used as the identifier, 'ta' contains the translations, and 'English' is a fallback if the 'ta' field is empty.
 
+
+Your excel file should be in the following format:
+
+| your_key | english translation | tamil translation |
+
+| Key | English | ta |
+| --- | --- | --- |
+| greetings | Hello! | வணக்கம்! |
+
 If you want to use different column names or a different Excel file, you need to modify the script:
 
 - To change the source Excel file, replace `'gt-app-muti-lang.xlsx'` in the `XLSX.readFile()` function with your file name.
